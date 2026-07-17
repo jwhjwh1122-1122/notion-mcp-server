@@ -1,1 +1,1 @@
-web: npm run build && node build/index.js
+web: npx @notionhq/notion-mcp-server --transport http --host 0.0.0.0 --port $PORT
